@@ -1,6 +1,5 @@
 /*
 customerUpdate.onshow=function(){
-// populate the textarea with all the pet names
     txtaCustomers4_contents.style.height = "150px"
     query = "SELECT * FROM customers"
     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + netID + "&query=" + query)
