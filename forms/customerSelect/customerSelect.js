@@ -22,7 +22,7 @@ customerSelect.onshow=function(){
            txtaCustomers.value = message
         } // end else
 
-    } else   // the transit didn't work - bad wifi? server turned off?
+    } else  
         lblMessage.value = "Error code: " + req.status
 }
 */
